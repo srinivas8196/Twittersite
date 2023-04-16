@@ -6,11 +6,11 @@ import Mainfeed from './custom_component/Mainfeed';
 
 function App() {
   return (
-    <>
+    <div className='twitter'>
     <Leftsidebar/>
     <Mainfeed/>
     <Rightsidebar/>
-   </>
+   </div>
     
   );
 }
